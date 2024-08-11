@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="/Java_Script/Java_Script Projects/Timer/stopwatch.png" alt="Timer Icon" id="timerIcon">
+        </div>
+        <div id="controls">
+            <input type="number" id="hoursInput" placeholder="Hours">
+            <input type="number" id="minutesInput" placeholder="Minutes">
+            <input type="number" id="secondsInput" placeholder="Seconds">
+            <button id="startButton">Start</button>
+            <button id="stopButton" disabled>Stop</button>
+            <button id="resetButton" disabled>Reset</button>
+        </div>
+        <div id="timer">00:00:00</div>
+        <audio id="alarmSound" src="/Java_Script/Java_Script Projects/Timer/alarm.mp3" preload="auto"></audio>
+        <p id="credit">Created by Wahidul Islam Ziad</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
