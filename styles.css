@@ -85,3 +85,36 @@ button:disabled {
     color: #333;
     margin: 0;
 }
+
+@media (max-width: 600px) {
+    #container {
+        padding: 20px;
+    }
+
+    #timerIcon {
+        width: 90px;
+    }
+
+    #timer {
+        font-size: 3em;
+    }
+
+    input {
+        width: 80px;
+        font-size: 1em;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    #controls {
+        gap: 5px;
+    }
+
+    #credit {
+        font-size: 0.9em;
+        bottom: 10px;
+    }
+}
